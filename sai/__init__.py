@@ -52,7 +52,8 @@ app = FastAPI()
 app.logger = LOGGER
 origins = [
     "http://localhost:8080",
-    "http://meteor:8080"
+    "http://meteor:8080",
+    "https://yourkara.tech"
 ]
 
 app.add_middleware(
