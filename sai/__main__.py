@@ -37,6 +37,7 @@ def main():
 async def root():
 	return {"version": "1.0"}
 
+main()
+
 if __name__ == "__main__":
-	main()
 	uvicorn.run(app, host="0.0.0.0", port=8000)
